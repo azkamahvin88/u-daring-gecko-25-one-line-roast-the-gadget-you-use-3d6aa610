@@ -3,16 +3,19 @@
 //
 // The line roasts WhatsApp: the "typing..." indicator that builds suspense
 // for five minutes, then delivers a single word — "ok". A concrete,
-// instantly recognisable daily-app behaviour, framed as a cliffhanger.
+// instantly recognisable daily-app behaviour, framed as a film trailer:
+// five minutes of trailer for a one-word film.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // Angle: suspense that goes nowhere. WhatsApp's "typing..." indicator
 // promises a message worth waiting for, then delivers the smallest
-// possible reply — a one-word anticlimax in a group chat.
+// possible reply — a one-word anticlimax. Framed as a film trailer:
+// the setup repeats "five minutes" so the payoff lands as a ratio —
+// five minutes of trailer for a one-word film.
 const ROAST =
-  "WhatsApp shows 'typing...' for five minutes, then sends a single 'ok' — the group chat's greatest cliffhanger.";
+  "WhatsApp flashes 'typing...' for five minutes, then sends one word — 'ok': five minutes of trailer for a one-word film.";
 
 // The gate requires /output/entry.txt to be UTF-8 text of 1–200
 // characters, not only whitespace. Fail hard (non-zero exit + message)

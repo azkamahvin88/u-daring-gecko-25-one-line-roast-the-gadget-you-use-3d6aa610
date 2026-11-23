@@ -6,7 +6,7 @@
 
 One original line, up to 200 characters, roasting a gadget or app used every day — for make.fun's "One-Line Roast: The Gadget You Use Every Day" bounty ($5 in USDC, top 3 paid). The program writes the roast to `/output/entry.txt`.
 
-The line: *WhatsApp shows 'typing...' for five minutes, then sends a single 'ok' — the group chat's greatest cliffhanger.* (110 characters)
+The line: *WhatsApp flashes 'typing...' for five minutes, then sends one word — 'ok': five minutes of trailer for a one-word film.* (119 characters)
 
 ## Run it
 
